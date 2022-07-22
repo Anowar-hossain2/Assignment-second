@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+body{
+    max-width: 1180px;
+    margin: 0 auto;
+    background-color: #F8F8F8 ;
+    font-family: 'Ubuntu', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#top-banner{
+    width: 100%;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.banner-text{
+    color: white;
+    padding: 10px 100px;
+    width: 50%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner-text a{
+    padding: 10px 20px;
+    background-color: rgba(233, 233, 8, 0.769) ;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.top-banner-img img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.content-box{
+    border: 2px solid black;
+    padding: 20px 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.imge-box{
+    display: flex;
+}
+.imge-box img{
+    width: 100%;
+}
+.blog-box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.nav-menu{
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    border-radius: 15px;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.nav-menu{
+    grid-row-start: span 2;
+}
+.btn-1{
+    padding: 20px 20px;
+    background-color:rgba(233, 233, 8, 0.769)  ;
+    margin: 20px 40px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 80px;
+    text-align: center;
+    
+}
+.btn-2{
+    padding: 20px 40px;
+    background-color:#F8F8F8;
+    margin: 20px 40px;
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.btn-3{
+    padding: 20px 40px;
+    background-color:#F8F8F8 ;
+    margin: 20px 40px;
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+}
+/* footer section start */
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+h3{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    padding-top: 70px;
+}
+.footer-btn, a{
+    color: lightgray;
+    padding-left: 20px;
+}
+.social-link{
+    padding-top: 50px;
+}
+ hr{
+    margin-left: 100px;
+    margin-right: 100px;
+ }
+ @media  screen and (max-width: 576px) {
+    .blog-box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+   
+ }
